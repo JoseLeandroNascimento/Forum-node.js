@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+
+    <body>
+
+        <%- include("partials/navbar.ejs") %>
+            <div class="container mt-5" style="display: flex; flex-direction: column;justify-content:center;align-items:center;">
+                <h1>404</h1>
+
+                <p>A seguinte rota não foi encontrada:
+                    <%= url %>
+                </p>
+
+            </div>
+    </body>
+
+    <%- include("partials/footer.ejs") %>
